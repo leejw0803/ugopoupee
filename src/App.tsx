@@ -1,11 +1,12 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import Button from "@mui/material/Button";
-import Banner from "./layout/banner";
 import Layout from "./layout/layout";
+import MainPage from "./pages/main";
 
 function App() {
-  return <Layout>여기에 메인 내용이 들어갈겁니다</Layout>;
+  return (
+    <Layout>
+      <MainPage />
+    </Layout>
+  );
 }
 
 export default App;

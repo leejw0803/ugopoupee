@@ -105,6 +105,7 @@ const style = css`
   }
   body {
     line-height: 1;
+    background-color: black;
   }
   ol,
   ul {
@@ -128,6 +129,11 @@ const style = css`
 
   * {
     box-sizing: border-box;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
   }
 `;
 
