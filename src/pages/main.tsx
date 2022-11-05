@@ -385,7 +385,12 @@ function MainPage() {
             <br />.
             <br />.
           </Typo>
-          <MoreButton onClick={() => setContent("ume")}>
+          <MoreButton
+            onClick={() => {
+              setContent("ume");
+              window.scrollTo(0, 0);
+            }}
+          >
             More about UGPP
           </MoreButton>
         </>
