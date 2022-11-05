@@ -532,7 +532,7 @@ function MainPage() {
             <br />
             <br />
             <ColorTypo color="#cccccc" variant="body2">
-              Poupée Land 17xx.x.xx~
+              [ Poupée Land 17xx.x.xx~ ]
             </ColorTypo>
           </Typo>
         </>
