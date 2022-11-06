@@ -32,12 +32,12 @@ const ColorTypo = styled(Typography)<ColorTypeProps>`
 const MoreButton = styled.button`
   margin-top: 50px;
   width: 100%;
-  height: 40px;
+  height: 3rem;
   border: 1px solid white;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: black;
   border-radius: 0.5rem;
 
-  color: black;
+  color: white;
   font-weight: 700;
   font-size: 1rem;
 `;
@@ -77,6 +77,7 @@ const LinkButton = styled.button`
 const IconButton = styled.button`
   margin-top: 0.5rem;
   height: 3rem;
+  width: 4rem;
   border: 1px solid white;
   background-color: transparent;
   border-radius: 0.5rem;
@@ -155,15 +156,15 @@ function MainPage() {
             <br /> 할로윈의 테마파크로 보일만한 장소는
             <br /> 물리법칙을 거스르는 어트랙션,
             <br />
-            판타지에서나 볼 법한 쇼와 마찬가지로
-            <br /> 현실에서는 본 적 없는 먹거리를 파는 푸드코트로
-            <br /> 이루어져 있었다
+            판타지에서나 볼 법한 쇼와 <br /> 마찬가지로 현실에서는 본 적 없는
+            먹거리를 파는
+            <br /> 푸드코트로 이루어져 있었다
             <br />
             <ColorTypo variant="caption" color="#cccccc">
               (이후 푸드코트에 음식값을 물었으나 역시 무료라고 답했다).
             </ColorTypo>
-            <br />
             <br /> 사후세계, 그 중에서도 천국을 방불케하는 장소였다.
+            <br />
             <br />
             아무것도 하지 않은 채 몇 분을 서있었을까
             <br /> 짧은 머리를 한 여성이 나에게 다가왔다.
@@ -341,7 +342,6 @@ function MainPage() {
             <br /> 건물 입구에 피와 손톱자국 등이 보여
             <br /> 도망쳤다.
             <br />
-            <br />
             뒤를 돌아보니 입맛을 다시는 우메가 보였다...
             <br />
             <br /> 그렇게 지낸 지 몇 개월이 지났을까,
@@ -354,8 +354,10 @@ function MainPage() {
             <ColorTypo variant="caption" color="#cccccc">
               (유리코와 우메의 섬뜩한 눈빛을 뒤로 한 채)
             </ColorTypo>
+            <br />
             레에마이와 텐의 배웅을 받으며
-            <br /> 프페랜드를 떠났다.
+            <br />
+            프페랜드를 떠났다.
             <br />
             <br /> 눈을 떠보니 병실이었다.
             <br />
@@ -377,6 +379,18 @@ function MainPage() {
             <br /> 이 말을 전하고 싶다.
             <br />
             우리 회전목마 앞에서 만납시다.
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <br />
             <br />
             <br />
@@ -418,10 +432,9 @@ function MainPage() {
             <br />
             대부분의 손님은 영혼으로, <br />
             그들은 저승과 이승의 경계인 그 공간에서
-            <br /> 끝없이 떠돈다. 가끔 혼수 상태이거나 꿈을 꾸는 중인 <br />{" "}
+            <br /> 끝없이 떠돈다. 가끔 혼수 상태이거나 꿈을 꾸는 중인 <br />
             살아있는 영혼도 찾아오며, <br />
-            소문으로는 단순히 길을 잃은 인간도 발견된다고 하지만 이는 확인되지
-            않았다.
+            단순히 길을 잃어 발을 들이게 되는 인간도 있다고 한다.
             <br />
             <br /> 프페랜드의 직원은 총 네 명이다.
             <br />
@@ -465,7 +478,8 @@ function MainPage() {
         <>
           <Box>
             <Typo style={{ fontWeight: 700 }} variant="h6">
-              動け！! Poupée Land
+              動け！!
+              <br /> Poupée Land
             </Typo>
             <Row>
               <IconButton

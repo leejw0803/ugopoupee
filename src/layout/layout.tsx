@@ -11,14 +11,8 @@ const ColumnLayout = styled.div`
   flex-direction: column;
 `;
 
-const RowLayout = styled.div`
-  display: flex;
-  flex-direction: row;
-  height: 100vh;
-  width: 100%;
-`;
-
 const Main = styled.main`
+  margin-top: 3.5rem;
   padding: 2.5rem;
   height: 100%;
   width: 100%;
